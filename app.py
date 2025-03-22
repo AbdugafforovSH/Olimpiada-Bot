@@ -9,8 +9,8 @@ import sqlite3
 from datetime import datetime, timedelta
 
 
-TOKEN = "8131510121:AAGR7IVolw0HEYPwKZ2gv2FC6qcY3D1aHs0"
-ADMINS = [5699757894,8131510121]
+TOKEN = "BOT_TOKEN"
+ADMINS = [ADMIN_IDS]
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
